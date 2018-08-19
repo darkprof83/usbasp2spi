@@ -1307,7 +1307,9 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <instance part="X1" gate="-2" x="-15.24" y="73.66"/>
 <instance part="X1" gate="-3" x="-15.24" y="71.12"/>
 <instance part="X1" gate="-4" x="-15.24" y="68.58"/>
-<instance part="X1" gate="-5" x="-15.24" y="66.04"/>
+<instance part="X1" gate="-5" x="-15.24" y="66.04" smashed="yes">
+<attribute name="NAME" x="-16.51" y="66.929" size="1.778" layer="95" rot="R180"/>
+</instance>
 <instance part="X1" gate="-6" x="-15.24" y="63.5"/>
 <instance part="X1" gate="-7" x="-15.24" y="60.96"/>
 <instance part="X1" gate="-8" x="-15.24" y="58.42"/>
@@ -1320,7 +1322,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <busses>
 </busses>
 <nets>
-<net name="N$2" class="0">
+<net name="VCC" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="VCC"/>
 <wire x1="35.56" y1="78.74" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
@@ -1340,7 +1342,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="5.08" y1="83.82" x2="5.08" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="SO" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="SO"/>
 <wire x1="43.18" y1="66.04" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
@@ -1354,7 +1356,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <junction x="43.18" y="50.8"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="HOLD" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="!HOLD"/>
 <wire x1="15.24" y1="60.96" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
@@ -1369,7 +1371,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <junction x="45.72" y="48.26"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="SCK" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="SCK"/>
 <wire x1="15.24" y1="63.5" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
@@ -1385,7 +1387,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <junction x="12.7" y="63.5"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="SI" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="SI"/>
 <wire x1="15.24" y1="66.04" x2="10.16" y2="66.04" width="0.1524" layer="91"/>
@@ -1401,7 +1403,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <junction x="10.16" y="66.04"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="CS" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="!CS"/>
 <wire x1="15.24" y1="68.58" x2="7.62" y2="68.58" width="0.1524" layer="91"/>
@@ -1417,7 +1419,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <junction x="7.62" y="68.58"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="WP" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="!WP"/>
 <pinref part="R1" gate="G$1" pin="2"/>
