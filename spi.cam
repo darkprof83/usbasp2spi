@@ -55,7 +55,7 @@
                         "file_function": "Copper",
                         "layer": 2,
                         "layer_details": "mixed",
-                        "layer_type": "Bottom"
+                        "layer_type": "bottom"
                     },
                     "filename_format": "%PREFIX/copper_bottom.gbr",
                     "layers": [
