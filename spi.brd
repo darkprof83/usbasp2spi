@@ -1426,7 +1426,7 @@ Source: 3M</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default *">
+<designrules name="spi *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -1447,9 +1447,9 @@ design rules under a new name.</description>
 <param name="mdWireWire" value="16mil"/>
 <param name="mdWirePad" value="10mil"/>
 <param name="mdWireVia" value="10mil"/>
-<param name="mdPadPad" value="8mil"/>
-<param name="mdPadVia" value="8mil"/>
-<param name="mdViaVia" value="8mil"/>
+<param name="mdPadPad" value="0.205mm"/>
+<param name="mdPadVia" value="0.205mm"/>
+<param name="mdViaVia" value="0.205mm"/>
 <param name="mdSmdPad" value="8mil"/>
 <param name="mdSmdVia" value="8mil"/>
 <param name="mdSmdSmd" value="8mil"/>
@@ -1469,20 +1469,20 @@ design rules under a new name.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="20mil"/>
-<param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="20mil"/>
-<param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="20mil"/>
-<param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="20mil"/>
-<param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="20mil"/>
-<param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="20mil"/>
-<param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="20mil"/>
-<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="rlMinPadTop" value="0.6mm"/>
+<param name="rlMaxPadTop" value="0.6mm"/>
+<param name="rlMinPadInner" value="0.6mm"/>
+<param name="rlMaxPadInner" value="0.6mm"/>
+<param name="rlMinPadBottom" value="0.6mm"/>
+<param name="rlMaxPadBottom" value="0.6mm"/>
+<param name="rlMinViaOuter" value="0.7mm"/>
+<param name="rlMaxViaOuter" value="0.7mm"/>
+<param name="rlMinViaInner" value="0.7mm"/>
+<param name="rlMaxViaInner" value="0.7mm"/>
+<param name="rlMinMicroViaOuter" value="0.6mm"/>
+<param name="rlMaxMicroViaOuter" value="0.6mm"/>
+<param name="rlMinMicroViaInner" value="0.6mm"/>
+<param name="rlMaxMicroViaInner" value="0.6mm"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
 <param name="psFirst" value="-1"/>
@@ -1820,9 +1820,6 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
-<errors>
-<approved hash="3,16,630b31c27fa52d6c"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
